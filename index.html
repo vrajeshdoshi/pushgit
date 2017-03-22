@@ -30,12 +30,13 @@
 
         document.getElementById('demoButton').onclick = function () {
             Push.create('Hello world!', {
-                body: 'How\'s it hangin\'?',
+                body: 'Jai Swaminarayan Das na Das',
                 icon: 'icon.png',
-                timeout: 4000,
+               // timeout: 4000,
                 onClick: function () {
-                    console.log("Fired!");
-                    window.focus();
+					window.location="http://samparkyds.org/login.php";
+                    //console.log("Fired!");
+                    //window.focus();
                     this.close();
                 },
                 vibrate: [200, 100, 200, 100, 200, 100, 200]
